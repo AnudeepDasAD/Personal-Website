@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,html {
+    height: 100%;
+}
+#root {
+	background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547__340.jpg");
+	
+	height: 50%;
+	width: 100%;
+	
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+    background-position: center;
+	background-size: cover;
+	/* overflow: hidden; */
+	
+	justify-content: center;
+	align-items: center;
+	color: white;
+	
+	display: flex;
+	
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	
+	
+}
